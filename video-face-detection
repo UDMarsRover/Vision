@@ -20,7 +20,7 @@ cap = cv2.VideoCapture(0)
 
 while True:
 
-    ret, frame = cap.read(0)
+    _, frame = cap.read(0)
 
     frame = detect_face(frame)
 
