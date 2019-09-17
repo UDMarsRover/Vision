@@ -1,7 +1,7 @@
 import cv2
 
-# File path needs editing!
-face_cascade = cv2.CascadeClassifier('/home/jxan/PycharmProjects/mars_rover/haarcascades/haarcascade_frontalface_default.xml')
+# File path may not work, I tried to fix it but need to check.
+face_cascade = cv2.CascadeClassifier('Vision/haarcascades/haarcascade_frontalface_alt.xml')
 
 #Detects a face using the haarcascade_frontalface_default template
 def detect_face(img):
