@@ -1,6 +1,8 @@
 import cv2
 import imutils
 
+"""Uses canny edge detection and RETR_TREE to detect contours."""
+
 cap = cv2.VideoCapture(0)
 
 
