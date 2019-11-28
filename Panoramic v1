@@ -1,4 +1,7 @@
 """Makes a panoramic picture with two photos"""
+
+# Remember to add file paths on lines 64 and 65!
+
 import cv2
 import numpy as np
 
@@ -58,8 +61,8 @@ def match(img1, img2):
     return dst, img3
 
 # Read in the images
-img1 = cv2.imread('/home/jxan/PycharmProjects/mars_rover/feature-pictures/image0.jpeg')
-img2 = cv2.imread('/home/jxan/PycharmProjects/mars_rover/feature-pictures/image1.jpeg')
+img1 = cv2.imread('')
+img2 = cv2.imread('')
 
 
 # Execute the code
