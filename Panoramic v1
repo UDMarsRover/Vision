@@ -1,5 +1,6 @@
 """Makes a panoramic picture with two photos"""
 
+# TIP: FEED PHOTOS IN LEFT TO RIGHT!!!!
 # Remember to add file paths on lines 64 and 65!
 
 import cv2
@@ -75,5 +76,5 @@ try:
 
 except:
     print("[-] There was an ERROR . . .")
-    print('\n\n\n\n    . . . best guess is not enough matches were found in the images :(')
+    print('\n\n\n\n    . . . best guess is not enough matches were found in the images, try editing line 38 . . .')
 
