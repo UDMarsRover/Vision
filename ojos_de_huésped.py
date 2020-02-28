@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+"""Watershed algorithm on video"""
+
 # Kernel to be used in image processing.
 kernel = np.ones((3, 3), np.uint8)
 
